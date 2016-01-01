@@ -1,6 +1,6 @@
 # purple-monochrome-vim
 Monochrome purple color scheme for vim(true color only).
-Dark screen.
+Dark background.
 
 Based on
 * [Phoenix](https://github.com/widatama/vim-phoenix)
