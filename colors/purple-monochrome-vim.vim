@@ -64,7 +64,7 @@ hi Error                      guifg=#FF9F92 guibg=NONE    gui=bold
 hi Todo                       guifg=#787878 guibg=NONE    gui=bold      
 
 hi IncSearch                  guifg=#1B1B1B guibg=#D290DE gui=NONE
-hi MatchParen                 guifg=#FFFFFF guibg=#B294BB gui=NONE
+hi MatchParen                 guifg=#B294BB guibg=#FFFFFF gui=NONE
 hi Search                     guifg=#1B1B1B guibg=#B294BB gui=NONE
 
 "Messages
