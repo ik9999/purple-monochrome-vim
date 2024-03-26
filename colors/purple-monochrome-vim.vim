@@ -86,6 +86,7 @@ hi Folded                     guifg=#191919 guibg=#40BDFF gui=NONE
 hi LineNr                     guifg=#808080 guibg=#212121 gui=NONE
 hi SignColumn                 guifg=#EFEFEF guibg=NONE    gui=NONE
 hi VertSplit                  guifg=#AAAAAA guibg=NONE    gui=NONE
+hi WinSeparator               guifg=#4F4F4F guibg=NONE    gui=NONE
 hi WildMenu                   guifg=#FFFFFF guibg=#292929 gui=NONE
 hi OverLength                 guifg=NONE    guibg=#20272F gui=NONE
 "TODO
