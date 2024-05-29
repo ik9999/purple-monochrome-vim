@@ -1,6 +1,6 @@
 set background=dark
 if version > 580
-	hi clear
+	"hi clear
 	if exists("syntax_on")
 		syntax reset
 	endif
@@ -53,6 +53,7 @@ hi Number                     guifg=#B294BB guibg=NONE    gui=NONE
 hi Cursor                     guifg=#6A6A6A guibg=#EFEFEF gui=NONE      
 hi CursorIM                   guifg=#191919 guibg=#FFFFFF gui=NONE      
 hi CursorColumn               guifg=NONE    guibg=#292929 gui=NONE      
+hi IblScope                   guifg=#808080 guibg=NONE gui=NONE      
 "hi CursorLine                 guifg=NONE    guibg=#333333 gui=NONE      
 hi CursorLine                 guifg=NONE    guibg=#2B2B2B gui=NONE      
 hi Visual                     guifg=#EFEFEF guibg=#515151 gui=NONE      
@@ -84,7 +85,7 @@ hi CursorLineNr               guifg=#FFFFFF guibg=#333333 gui=bold
 hi FoldColumn                 guifg=#191919 guibg=#40BDFF gui=NONE
 hi Folded                     guifg=#191919 guibg=#40BDFF gui=NONE
 hi LineNr                     guifg=#808080 guibg=#212121 gui=NONE
-hi SignColumn                 guifg=#EFEFEF guibg=NONE    gui=NONE
+hi SignColumn                 guifg=NONE    guibg=#262626    gui=NONE
 hi VertSplit                  guifg=#AAAAAA guibg=NONE    gui=NONE
 hi WinSeparator               guifg=#4F4F4F guibg=NONE    gui=NONE
 hi WildMenu                   guifg=#FFFFFF guibg=#292929 gui=NONE
@@ -108,9 +109,9 @@ hi DiffText                   guifg=#FFFFFF guibg=NONE    gui=bold
 hi GitGutterAddDefault        guifg=#009F82 guibg=NONE    gui=NONE
 hi GitGutterChangeDefault     guifg=#98C9BB guibg=NONE    gui=NONE
 hi GitGutterDeleteDefault     guifg=#596196 guibg=NONE    gui=NONE
-hi GitGutterAdd               guifg=#009F82 guibg=#212121 gui=NONE
-hi GitGutterChange            guifg=#98C9BB guibg=#212121 gui=NONE
-hi GitGutterDelete            guifg=#596196 guibg=#212121 gui=NONE
+"hi GitGutterAdd               guifg=#009F82 guibg=NONE    gui=NONE
+"hi GitGutterChange            guifg=#98C9BB guibg=NONE    gui=NONE
+"hi GitGutterDelete            guifg=#596196 guibg=NONE    gui=NONE
 
 "Spelling
 hi SpellBad                   guisp=#FF3D23 guibg=NONE    gui=undercurl
@@ -133,3 +134,8 @@ hi link                       markdownInlineCode          PreProc
 hi link                       markdownFencedCodeBlock     PreProc
 hi link                       markdownCodeBlock           PreProc
 
+"Diagnostics
+hi DiagnosticSignHint guibg=#262626
+hi DiagnosticSignInfo guibg=#262626
+hi DiagnosticSignWarn guibg=#262626
+hi DiagnosticSignError guibg=#262626
