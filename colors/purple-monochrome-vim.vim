@@ -61,7 +61,7 @@ hi Visual                     guifg=#EFEFEF guibg=#515151 gui=NONE
 hi VisualNOS                  guifg=#EFEFEF guibg=#515151 gui=NONE
 hi MatchParen                 guifg=#191919 guibg=#40BDFF gui=NONE
 "hi Search                     guifg=#EFEFEF guibg=#40BDFF gui=NONE
-hi CurSearch                  guifg=#1B1B1B guibg=#CA83E3 gui=NONE
+hi CurSearch                  guifg=black guibg=#af87af gui=bold
 "hi Error                      guifg=#FF3D23 guibg=NONE    gui=bold
 hi Error                      guifg=#FF9F92 guibg=NONE    gui=bold
 hi Todo                       guifg=#787878 guibg=NONE    gui=bold
